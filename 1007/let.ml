@@ -46,7 +46,7 @@ let pgm6 =
         LET("y", CONST 2,
             LET("y", LET ("x", SUB(VAR "x", CONST 1),
                         SUB (VAR "x", VAR "y")),
-                SUB(SUB(VAR("x", CONST 8), VAR "y")))))
+                SUB(SUB(VAR "x", CONST 8), VAR "y"))))
 
 (* 
 let x = read
