@@ -64,3 +64,16 @@ and eval_bop : env -> exp -> exp -> (int -> int -> int) -> value (* binary opera
 (* interpreter *)
 let run: program -> value
 =fun pgm -> eval empty_env pgm
+
+(*
+P -> E
+E -> n
+   | x
+   | E + E
+   | E - E
+   | iszero E
+   | if E then E else E
+   | let x = E in E
+
+key concepts: syntax, semantics, interpreter
+*)
