@@ -1,5 +1,8 @@
 # COSE212_PL
-Programming Language Class
+
+Korea University, Seoul
+
+COSE212 Programming Language Class
 
 Thank you for [Noverish](https://github.com/Noverish/KoreaUniversity-ProgrammingLanguage)
 
